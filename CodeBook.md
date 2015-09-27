@@ -8,6 +8,7 @@ There are a total of 66 numeric variables (33 mean and 33 standard deviation)
 and a total of 180 observations (30 participants times 6 activities). 
 
 In addition to 66 numeric variables, there are two additional variables on which this data is summarized / grouped:
+
 01	"participant id"			A numeric value assigned to a participant / subject in this study - ranging from 1 to 30.
 02	"activity descriptions"		Name of activity performed by a subject.
 								(1) Walking
@@ -21,7 +22,8 @@ The remaining 66 numeric variables describe either 'mean' (33 values) or 'standa
 They also have a prefix of eiter 't' (indicating time domain signals, captured at a constant rate of 50 Hz) 
 or a prefix of 'f' (indicating frequency domain signals), as explained below:					
 					
-Body acceleration mean and standard deviation along 3-axial signals in the X, Y and Z directions:					
+Body acceleration mean and standard deviation along 3-axial signals in the X, Y and Z directions:
+
 03	"tBodyAcc-mean-X"			
 04	"tBodyAcc-mean-Y" 			
 05	"tBodyAcc-mean-Z"		
@@ -30,6 +32,7 @@ Body acceleration mean and standard deviation along 3-axial signals in the X, Y 
 08	"tBodyAcc-standard deviation-Z" 
 
 Gravity acceleration mean and standard deviation along 3-axial signals in the X, Y and Z directions:
+
 09	"tGravityAcc-mean-X" 
 10	"tGravityAcc-mean-Y" 
 11	"tGravityAcc-mean-Z" 
@@ -38,6 +41,7 @@ Gravity acceleration mean and standard deviation along 3-axial signals in the X,
 14	"tGravityAcc-standard deviation-Z" 
 
 Body acceleration jerk mean and standard deviation along 3-axial signals in the X, Y and Z directions:
+
 15	"tBodyAccJerk-mean-X" 
 16	"tBodyAccJerk-mean-Y" 
 17	"tBodyAccJerk-mean-Z" 
@@ -46,6 +50,7 @@ Body acceleration jerk mean and standard deviation along 3-axial signals in the 
 20	"tBodyAccJerk-standard deviation-Z" 
 
 Body gyroscope mean and standard deviation along 3-axial signals in the X, Y and Z directions:
+
 21	"tBodyGyro-mean-X" 
 22	"tBodyGyro-mean-Y" 
 23	"tBodyGyro-mean-Z" 
@@ -54,6 +59,7 @@ Body gyroscope mean and standard deviation along 3-axial signals in the X, Y and
 26	"tBodyGyro-standard deviation-Z" 
 
 Body gyroscope jerk mean and standard deviation along 3-axial signals in the X, Y and Z directions:
+
 27	"tBodyGyroJerk-mean-X" 
 28	"tBodyGyroJerk-mean-Y" 
 29	"tBodyGyroJerk-mean-Z" 
@@ -62,6 +68,7 @@ Body gyroscope jerk mean and standard deviation along 3-axial signals in the X, 
 32	"tBodyGyroJerk-standard deviation-Z" 
 
 Body acceleration magnitude mean and standard deviation:
+
 33	"tBodyAccMag-mean"
 34	"tBodyAccMag-standard deviation" 
 
@@ -70,6 +77,7 @@ Gravity acceleration magnitude mean and standard deviation:
 36	"tGravityAccMag-standard deviation" 
 
 Body acceleration jerk magnitude mean and standard deviation:
+
 37	"tBodyAccJerkMag-mean" 
 38	"tBodyAccJerkMag-standard deviation" 
 
@@ -78,10 +86,12 @@ Body gyroscope magnitude mean and standard deviation:
 40	"tBodyGyroMag-standard deviation" 
 
 Body gyroscope jerk magnitude mean and standard deviation:
+
 41	"tBodyGyroJerkMag-mean" 
 42	"tBodyGyroJerkMag-standard deviation" 
 
-Body acceleration mean and standard deviation along 3-axial signals in the X, Y and Z directions (frequency domain signals):	
+Body acceleration mean and standard deviation along 3-axial signals in the X, Y and Z directions (frequency domain signals):
+	
 43	"fBodyAcc-mean-X" 
 44	"fBodyAcc-mean-Y" 
 45	"fBodyAcc-mean-Z" 
@@ -90,6 +100,7 @@ Body acceleration mean and standard deviation along 3-axial signals in the X, Y 
 48	"fBodyAcc-standard deviation-Z" 
 
 Body acceleration jerk mean and standard deviation along 3-axial signals in the X, Y and Z directions (frequency domain signals):
+
 49	"fBodyAccJerk-mean-X" 
 50	"fBodyAccJerk-mean-Y" 
 51	"fBodyAccJerk-mean-Z" 
@@ -98,6 +109,7 @@ Body acceleration jerk mean and standard deviation along 3-axial signals in the 
 54	"fBodyAccJerk-standard deviation-Z" 
 
 Body gyroscope mean and standard deviation along 3-axial signals in the X, Y and Z directions (frequency domain signals):
+
 55	"fBodyGyro-mean-X" 
 56	"fBodyGyro-mean-Y" 
 57	"fBodyGyro-mean-Z" 
@@ -106,17 +118,21 @@ Body gyroscope mean and standard deviation along 3-axial signals in the X, Y and
 60	"fBodyGyro-standard deviation-Z" 
 
 Body acceleration magnitude mean and standard deviation (frequency domain signals):
+
 61	"fBodyAccMag-mean" 
 62	"fBodyAccMag-standard deviation" 
 
 Body acceleration jerk magnitude mean and standard deviation (frequency domain signals):
+
 63	"fBodyBodyAccJerkMag-mean" 
 64	"fBodyBodyAccJerkMag-standard deviation" 
 
 Body gyroscope magnitude mean and standard deviation (frequency domain signals):
+
 65	"fBodyBodyGyroMag-mean" 
 66	"fBodyBodyGyroMag-standard deviation" 
 
 Body gyroscope jerk magnitude mean and standard deviation (frequency domain signals):
+
 67	"fBodyBodyGyroJerkMag-mean" 
 68	"fBodyBodyGyroJerkMag-standard deviation"
