@@ -23,12 +23,11 @@ They also have a prefix of eiter 't' (indicating time domain signals, captured a
 or a prefix of 'f' (indicating frequency domain signals), as explained below:					
 					
 Body acceleration mean and standard deviation along 3-axial signals in the X, Y and Z directions:
-
-03	"tBodyAcc-mean-X"			
-04	"tBodyAcc-mean-Y" 			
-05	"tBodyAcc-mean-Z"		
-06	"tBodyAcc-standard deviation-X" 
-07	"tBodyAcc-standard deviation-Y" 
+03	"tBodyAcc-mean-X"
+04	"tBodyAcc-mean-Y"
+05	"tBodyAcc-mean-Z"
+06	"tBodyAcc-standard deviation-X"
+07	"tBodyAcc-standard deviation-Y"
 08	"tBodyAcc-standard deviation-Z" 
 
 Gravity acceleration mean and standard deviation along 3-axial signals in the X, Y and Z directions:
